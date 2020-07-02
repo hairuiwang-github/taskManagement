@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="task_managerment:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/task_managerment_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="task_managerment/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="task_managerment" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

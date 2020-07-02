@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/taskmanagement
+        </property>
+        <property name="user">root</property>
+        <property name="password">132580</property>
+        <!-- 初始化连接池数量 -->
+        <property name="initialPoolSize">10</property>
+
+        <!--最大空闲时间,60秒内未使用则连接被丢弃。若为0则永不丢弃。Default: 0 -->
+        <property name="maxIdleTime">60</property>
+
+        <!--连接池中保留的最大连接数。Default: 15 -->
+        <property name="maxPoolSize">25</property>
+
+        <!--连接池中保留的 最小连接数 -->
+        <property name="minPoolSize">10</property>
+    </default-config>
+</c3p0-config>
